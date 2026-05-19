@@ -1,4 +1,4 @@
-# sds210-wildfire-project in Borneo
+# SDS210 Wildfire Project in Borneo
 
 ## Research question
 Where are the most intense active fires in Borneo right now, and how is fire activity distributed across the region?
