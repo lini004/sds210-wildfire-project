@@ -1,13 +1,16 @@
 # SDS210 Wildfire Project in Borneo
 
-## Research question
+## Research question and description
 Where are the most intense active fires in Borneo right now, and how is fire activity distributed across the region?
 
-## Data sources
-- Fire data: NASA FIRMS VIIRS NRT API  
-  https://firms.modaps.eosdis.nasa.gov/api/ 
 
- --> Requires a free NASA Earthdata API key
+## Data sources
+- Requires a free NASA Earthdata API key 
+https://firms.modaps.eosdis.nasa.gov/api/ 
+
+- Fire data: NASA FIRMS VIIRS NRT
+'https://firms.modaps.eosdis.nasa.gov/mapserver/mapkey_status/?map_key=' + map_key
+
 
  ## Setup
 1. Clone this repository
