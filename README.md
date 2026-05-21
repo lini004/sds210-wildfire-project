@@ -14,9 +14,9 @@ https://firms.modaps.eosdis.nasa.gov/api/
 
 
 ## Setup
-1. Clone this repository
-2. Install the required python packages:
+1. Install the required python packages:
    pip install pandas requests folium
+2. Clone this repository
 3. Add your NASA FIRMS API key (see How to Run)
 
  ## How to run
