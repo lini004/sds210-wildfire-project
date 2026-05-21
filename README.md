@@ -12,14 +12,17 @@ https://firms.modaps.eosdis.nasa.gov/api/
 'https://firms.modaps.eosdis.nasa.gov/mapserver/mapkey_status/?map_key=' + map_key
 
 
- ## Setup
+
+## Setup
 1. Clone this repository
-2. Install dependencies: `conda env create -f environment.yml`
-3. Activate environment: `conda activate sds-env`
+2. Install the required python packages:
+   pip install pandas requests folium
+3. Add your NASA FIRMS API key (see How to Run)
 
  ## How to run
-1. Add your NASA FIRMS API key in cell 2 of the notebook
-2. Run `notebooks/fire_project1.ipynb` top to bottom
+1. Register for a free API key
+2. Add your NASA FIRMS API key in cell 2 of the notebook
+3. Run `notebooks/fire_project1.ipynb` top to bottom
 
 ## Outputs
-Interactive folium map, always near real time displays
+Interactive folium map (might have to open it in browser), always near real time displays, shows live fire detections for the last 24 hours over Borneo
